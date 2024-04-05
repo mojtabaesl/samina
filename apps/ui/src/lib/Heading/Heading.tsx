@@ -16,7 +16,10 @@ export const Heading = ({ level, children, ...rest }: HeadingProps) => {
   const HeadingTag = `h${level}` as keyof JSX.IntrinsicElements;
 
   return (
-    <HeadingTag className={`${fontSizeMapping[level]} font-bold`} {...rest}>
+    <HeadingTag
+      className={`${fontSizeMapping[level]} font-bold font-primary`}
+      {...rest}
+    >
       {children}
     </HeadingTag>
   );

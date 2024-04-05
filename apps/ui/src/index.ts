@@ -5,3 +5,5 @@ export * from './lib/Stack';
 export * from './lib/Group';
 export * from './lib/Heading';
 export * from './lib/BaseSideBar';
+export * from './lib/Icons';
+export * from './lib/Text';

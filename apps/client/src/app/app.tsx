@@ -1,11 +1,11 @@
 import { AppSurface } from '@samina/ui';
-import { SideBar } from '../components/sideBar/SideBar';
+import { SideBar } from '../components/SideBar';
 
 export function App() {
   return (
     <AppSurface>
-      <main className="grow">main</main>
       <SideBar />
+      <main className="grow">main</main>
     </AppSurface>
   );
 }
