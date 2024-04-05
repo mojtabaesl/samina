@@ -3,5 +3,5 @@ interface AppSurfaceProps {
 }
 
 export const AppSurface = ({ children }: AppSurfaceProps) => {
-  return <div className="bg-base-white flex">{children}</div>;
+  return <div className="bg-base-white flex h-full">{children}</div>;
 };

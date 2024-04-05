@@ -1,10 +1,11 @@
 import { AppSurface } from '@samina/ui';
+import { SideBar } from '../components/sideBar/SideBar';
 
 export function App() {
   return (
     <AppSurface>
-      <main>main</main>
-      <aside className="font-primary font-bold text-2xl">سلام</aside>
+      <main className="grow">main</main>
+      <SideBar />
     </AppSurface>
   );
 }
