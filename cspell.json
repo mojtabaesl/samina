@@ -11,7 +11,9 @@
     "pmmmwh",
     "svgr",
     "cssmodule",
-    "ثمینا"
+    "ثمینا",
+    "آپشن",
+    "ورژن"
   ],
   "import": ["@cspell/dict-fa-ir/cspell-ext.json"]
 }

@@ -7,3 +7,4 @@ export * from './lib/Heading';
 export * from './lib/BaseSideBar';
 export * from './lib/Icons';
 export * from './lib/Text';
+export * from './lib/Navigation';

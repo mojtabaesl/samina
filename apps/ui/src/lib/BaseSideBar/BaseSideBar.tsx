@@ -4,9 +4,8 @@ interface BaseSideBarProps {
 
 export const BaseSideBar = ({ children }: BaseSideBarProps) => {
   return (
-    <aside className="w-[279px] border-l border-gray-200 px-[15px] py-8 flex flex-col">
+    <aside className="w-[279px] border-l border-gray-200 px-[15px] py-8 flex flex-col justify-between">
       {children}
-      {/* <Navigation links={links} /> */}
     </aside>
   );
 };
