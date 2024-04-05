@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "prepare": "husky",
-    "dev:serve": "npx nx run-many -t serve"
+    "serve": "npx nx run-many -t serve",
+    "serve:client": "npx nx serve --project client"
   },
   "private": true,
   "dependencies": {

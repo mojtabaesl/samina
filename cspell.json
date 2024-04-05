@@ -10,7 +10,8 @@
     "Samina",
     "pmmmwh",
     "svgr",
-    "cssmodule"
+    "cssmodule",
+    "ثمینا"
   ],
   "import": ["@cspell/dict-fa-ir/cspell-ext.json"]
 }
