@@ -45,6 +45,18 @@ module.exports = {
         900: '#00359E',
       },
     },
+    fontSize: {
+      heading: {
+        h5: '24',
+      },
+      body: {
+        regular: '16',
+        semibold: '16',
+      },
+    },
+    fontFamily: {
+      primary: ['IranSans', 'sans-serif'],
+    },
     extend: {},
   },
   plugins: [],
