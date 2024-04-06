@@ -11,9 +11,14 @@
     "pmmmwh",
     "svgr",
     "cssmodule",
+    "clsx",
+    "iban",
+    "IBAN",
+    "tanstack",
     "ثمینا",
     "آپشن",
     "ورژن",
+    "ناهارخوران",
     "ایپسوم"
   ],
   "import": ["@cspell/dict-fa-ir/cspell-ext.json"]

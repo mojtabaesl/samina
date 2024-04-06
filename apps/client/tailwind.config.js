@@ -15,6 +15,10 @@ const customColors = {
     800: '#1D2939',
     900: '#101828',
   },
+  red: {
+    100: '#FEE4E2',
+    500: '#F04438',
+  },
   brand: {
     25: '#F5F8FF',
     50: '#EFF4FF',
@@ -47,6 +51,7 @@ module.exports = {
         white: '#ffffff',
         black: '#000000',
       },
+      red: customColors.red,
       gray: customColors.gray,
       brand: customColors.brand,
       primary: customColors.gray[900],

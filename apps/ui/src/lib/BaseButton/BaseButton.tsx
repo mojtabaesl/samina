@@ -1,11 +1,11 @@
 import { HTMLAttributes } from 'react';
 
 export interface BaseButtonProps extends HTMLAttributes<HTMLButtonElement> {
-  type: 'primary' | 'secondary';
+  variant?: 'primary' | 'secondary';
 }
 
 export const BaseButton = ({
-  type = 'primary',
+  variant = 'primary',
   className,
   ...rest
 }: BaseButtonProps) => {
@@ -13,7 +13,7 @@ export const BaseButton = ({
     <button
       className={`
       ${
-        type === 'primary'
+        variant === 'primary'
           ? 'bg-brand-600 hover:bg-brand-700 text-base-white'
           : 'border border-gray-300 hover:bg-gray-50 text-gray-500'
       }
