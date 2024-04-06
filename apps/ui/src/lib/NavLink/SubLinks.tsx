@@ -10,8 +10,8 @@ export const SubLinks = ({ children, isOpen = false }: SubLinksProps) => {
   return (
     <ul>
       <Stack
-        className={`transition-all duration-75 overflow-hidden ${
-          isOpen ? 'h-full' : 'h-0'
+        className={`overflow-hidden gap-1 border-r border-gray-200 mr-6 ${
+          isOpen ? 'animate-open' : 'animate-close'
         }`}
       >
         {children?.map(({ to, label }) => {

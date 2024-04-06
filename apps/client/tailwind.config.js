@@ -57,7 +57,22 @@ module.exports = {
     fontFamily: {
       primary: ['IranSans', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        open: {
+          '0%': { maxHeight: 0 },
+          '100%': { maxHeight: '1000px' },
+        },
+        close: {
+          '100%': { maxHeight: 0 },
+          '0%': { maxHeight: '1000px' },
+        },
+      },
+      animation: {
+        open: 'open .1s ease-in-out forwards',
+        close: 'close .1s ease-in-out forwards',
+      },
+    },
   },
   plugins: [],
 };

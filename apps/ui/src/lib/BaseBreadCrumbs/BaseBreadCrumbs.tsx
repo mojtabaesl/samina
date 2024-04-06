@@ -19,7 +19,7 @@ export const BaseBreadCrumbs: React.FC<BreadcrumbsProps> = ({ items }) => {
       return (
         <>
           <li key={path}>
-            <Label className={isLast ? 'text-brand-700' : ''}>
+            <Label className={isLast ? 'text-brand-700' : 'text-secondary'}>
               <Link to={path}>{name}</Link>
             </Label>
           </li>

@@ -5,9 +5,5 @@ interface LabelProps extends HTMLAttributes<HTMLParagraphElement> {
 }
 
 export const Label = ({ children, className }: LabelProps) => {
-  return (
-    <p className={`text-sm font-semibold text-secondary ${className}`}>
-      {children}
-    </p>
-  );
+  return <p className={`text-sm font-semibold  ${className}`}>{children}</p>;
 };

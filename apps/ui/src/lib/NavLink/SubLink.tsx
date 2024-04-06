@@ -12,7 +12,7 @@ export const SubLink = ({ to, label }: SubLinkProps) => {
       <NavLink
         to={to}
         className={({ isActive }) =>
-          `flex pr-12 pl-9 py-2 justify-between cursor-pointer ${
+          `flex pr-6 pl-9 py-2 justify-between cursor-pointer ${
             isActive ? 'text-brand-600' : ''
           }`
         }
