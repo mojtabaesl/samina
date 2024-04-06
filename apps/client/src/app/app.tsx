@@ -1,4 +1,4 @@
-import { AppSurface } from '@samina/ui';
+import { AppSurface, Stack } from '@samina/ui';
 import { SideBar } from '../components/SideBar';
 import { Outlet } from 'react-router-dom';
 import { Header } from '../components/Header/Header';
@@ -9,7 +9,9 @@ export function App() {
       <SideBar />
       <main className="grow">
         <Header />
-        <Outlet />
+        <Stack className="p-8">
+          <Outlet />
+        </Stack>
       </main>
     </AppSurface>
   );

@@ -1,5 +1,6 @@
-import { createBrowserRouter } from 'react-router-dom';
+import { Outlet, createBrowserRouter } from 'react-router-dom';
 import App from './app/app';
+import { NewBankAccountPage } from './app/pages/newBankAccount';
 
 export const router = createBrowserRouter([
   {
@@ -28,10 +29,11 @@ export const router = createBrowserRouter([
       },
       {
         path: '/treasury',
+        element: <Outlet />,
         children: [
           {
             path: '/treasury/newBankAccount',
-            element: <div>new bank account</div>,
+            element: <NewBankAccountPage />,
           },
           { path: '/treasury/option2', element: <div>Option 2</div> },
           { path: '/treasury/option3', element: <div>Option 3</div> },

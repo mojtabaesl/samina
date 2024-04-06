@@ -13,7 +13,8 @@
     "cssmodule",
     "ثمینا",
     "آپشن",
-    "ورژن"
+    "ورژن",
+    "ایپسوم"
   ],
   "import": ["@cspell/dict-fa-ir/cspell-ext.json"]
 }

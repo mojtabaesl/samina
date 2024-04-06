@@ -9,3 +9,6 @@ export * from './lib/Icons';
 export * from './lib/Text';
 export * from './lib/Navigation';
 export * from './lib/BaseBreadCrumbs';
+export * from './lib/Badge';
+export * from './lib/IconButton';
+export * from './lib/Button';

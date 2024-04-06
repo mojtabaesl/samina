@@ -21,3 +21,5 @@ export * from './Ringtone';
 export * from './Avatar';
 export * from './ArrowLeft';
 export * from './Category2';
+export * from './DocumentPdf';
+export * from './Camera';
